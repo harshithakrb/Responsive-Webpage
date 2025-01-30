@@ -1,1 +1,18 @@
 # Responsive-Webpage
+
+**COMPANY**: CODTECH IT SOLUTIONS
+
+**NAME**: K.R.HARSHITHA
+
+**INTERN ID**: CT08EAS
+
+**DOMAIN**: UI/UX Design
+
+**BATCH DURATION**: January 5th, 2025 to February 5th, 2025
+
+**MENTOR NAME**: NEELA SANTHOSH
+
+**DESCRIPTION OF TASK PERFORMED**:
+
+**OUTPUT**: 
+
