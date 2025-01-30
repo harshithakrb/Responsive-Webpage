@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Shopping Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background: linear-gradient(135deg, #0066cc 0%, #3399ff 100%);
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .category-card {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+
+    .category-img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .featured-products {
+      background-color: #f0f8ff;
+      padding: 60px 0;
+    }
+
+    .product-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+
+    .btn-primary {
+      background-color: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .btn-primary:hover {
+      background-color: #005bb5;
+      border-color: #005bb5;
+    }
+
+    .navbar {
+      background-color: #003366;
+    }
+
+    .navbar-nav .nav-link {
+      color: #ffffff !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #80c7ff !important;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ShopNow</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <h1>Welcome to ShopNow!</h1>
+    <p>Discover amazing deals on your favorite products</p>
+    <a href="#categories" class="btn btn-light">Shop Now</a>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="container my-5">
+    <h2 class="text-center mb-4">Shop by Categories</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="category-card">
+          <img src="C:\Users\dell\Desktop\codtech intern\h\image\p1.png" class="category-img" alt="Category 1">
+          <h4 class="mt-3">Electronics</h4>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-card">
+          <img src="C:\Users\dell\Desktop\codtech intern\h\image\p3.png" class="category-img" alt="Category 2">
+          <h4 class="mt-3">Fashion</h4>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-card">
+          <img src="C:\Users\dell\Desktop\codtech intern\h\image\p2.png" class="category-img" alt="Category 3">
+          <h4 class="mt-3">Home Appliances</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured-products">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Products</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card product-card">
+            <img src="C:\Users\dell\Desktop\codtech intern\h\image\p5.png" class="product-img" alt="Product 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">$99.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card product-card">
+            <img src="C:\Users\dell\Desktop\codtech intern\h\image\p7.png" class="product-img" alt="Product 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">$129.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card product-card">
+            <img src="C:\Users\dell\Desktop\codtech intern\h\image\p6.png" class="product-img" alt="Product 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">$59.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card product-card">
+            <img src="C:\Users\dell\Desktop\codtech intern\h\image\p4.png" class="product-img" alt="Product 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product 4</h5>
+              <p class="card-text">$199.99</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 ShopNow. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
