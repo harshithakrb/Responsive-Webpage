@@ -88,6 +88,11 @@ The final product is a fully responsive, visually appealing e-commerce website w
 
 ![Image](https://github.com/user-attachments/assets/4c7540ee-3c27-4ca1-9422-c3b3313dbc89)
 
+
 ![Image](https://github.com/user-attachments/assets/3c82247c-b838-4ae9-8b0c-52f9c1f23b99)
 
+
 ![Image](https://github.com/user-attachments/assets/07104322-14fc-4115-9035-031fb8c88d06)
+
+
+https://github.com/user-attachments/assets/032e7b5f-eb9f-4894-88f1-d70630c77db1
